@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { ChevronRight, Globe } from "lucide-react";
 import Button from "./Button";
+import logoaiImg from "../assets/images/logoai.png";
 
 const scrollToId = (id: string) => {
   const el = document.getElementById(id);
@@ -19,11 +20,7 @@ const Header = () => {
   return (
     <header className="w-full py-4 px-4 md:px-12 lg:px-20 sticky top-0 z-50 bg-white shadow-lg transition-all duration-300">
       <div className="max-w-7xl mx-auto flex items-center justify-between min-h-[80px]">
-        <img
-          src="/src/assets/images/logoai.png"
-          alt="Logo Dieta.AI"
-          className="h-16 w-auto"
-        />
+        <img src={logoaiImg} alt="Logo Dieta.AI" className="h-16 w-auto" />
         {/* Texto centralizado apenas no mobile */}
         <span className="block md:hidden absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-lg font-bold text-[#00bf63] select-none pointer-events-none">
           Dona Nutri A.I
