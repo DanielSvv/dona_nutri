@@ -1,4 +1,5 @@
 import React from "react";
+import celularImg from "../assets/images/celular.jpeg";
 
 const PhoneMockup = () => {
   return (
@@ -11,7 +12,7 @@ const PhoneMockup = () => {
           <div className="w-1/3 h-6 bg-black mx-auto rounded-b-xl"></div>
           {/* Imagem do celular */}
           <img
-            src="/src/assets/images/celular.jpeg"
+            src={celularImg}
             alt="Celular com Dieta.AI"
             className="flex-1 object-cover w-full h-full"
           />
