@@ -6,6 +6,7 @@ import FeaturesGrid from "./components/FeaturesGrid";
 import PricingSection from "./components/PricingSection";
 import FAQSection from "./components/FAQSection";
 import ContactSection from "./components/ContactSection";
+import GuaranteeSection from "./components/GuaranteeSection";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <FeaturesGrid />
       <PricingSection />
       <FAQSection />
+      <GuaranteeSection />
       <ContactSection />
       <a
         href={`https://wa.me/5599999999999?text=${encodeURIComponent(

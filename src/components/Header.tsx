@@ -67,7 +67,10 @@ const Header = () => {
           <Button
             variant="primary"
             className="hidden md:block py-4 px-10 text-lg"
-            onClick={() => scrollToId("planos")}
+            onClick={() => {
+              const el = document.getElementById("planos");
+              if (el) el.scrollIntoView({ behavior: "smooth" });
+            }}
           >
             Assinar agora
           </Button>

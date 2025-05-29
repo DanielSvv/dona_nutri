@@ -24,6 +24,10 @@ const Hero = () => {
               variant="primary"
               size="large"
               className="py-5 px-16 text-2xl font-extrabold bg-gradient-to-r from-[#00bf63] via-[#00e676] to-[#00bf63] shadow-xl hover:scale-105 hover:brightness-110 transition-all duration-300 animate-glow"
+              onClick={() => {
+                const el = document.getElementById("planos");
+                if (el) el.scrollIntoView({ behavior: "smooth" });
+              }}
             >
               Assinar agora
             </Button>

@@ -3,7 +3,7 @@ import React from "react";
 const plans = [
   {
     title: "Mensal",
-    price: "R$39,90",
+    price: "R$29,90",
     subtitle: "Pagamento mensal",
     discount: "R$0 de DESCONTO",
     features: [
@@ -19,10 +19,10 @@ const plans = [
   },
   {
     title: "Semestral",
-    price: "R$32,83",
-    subtitle: "R$197,00 à vista",
+    price: "R$24,83",
+    subtitle: "R$149,00 à vista",
     pricePerMonth: "/mês",
-    discount: "+R$42,40 de DESCONTO",
+    discount: "+R$30,40 de DESCONTO",
     features: [
       "Acesso a todas as funcionalidades",
       "Dashboard em Breve",
@@ -36,10 +36,10 @@ const plans = [
   },
   {
     title: "Anual",
-    price: "R$24,75",
-    subtitle: "R$297,00 à vista",
+    price: "R$20,75",
+    subtitle: "R$249,00 à vista",
     pricePerMonth: "/mês",
-    discount: "+R$181,80 de DESCONTO",
+    discount: "+R$109,80 de DESCONTO",
     features: [
       "Acesso a todas as funcionalidades",
       "Dashboard em Breve",
@@ -117,7 +117,7 @@ const PricingSection = () => {
               </ul>
               {plan.title === "Mensal" && (
                 <a
-                  href="https://pay.kiwify.com/0e4oxp3"
+                  href="https://pay.kiwify.com.br/IspSU41"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`w-full block py-4 text-lg font-bold rounded-full text-center shadow-lg transition mt-2
@@ -128,7 +128,7 @@ const PricingSection = () => {
               )}
               {plan.title === "Semestral" && (
                 <a
-                  href="https://pay.kiwify.com/F0PP6M4"
+                  href="https://pay.kiwify.com.br/HLgGRBf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`w-full block py-4 text-lg font-bold rounded-full text-center shadow-lg transition mt-2
@@ -139,7 +139,7 @@ const PricingSection = () => {
               )}
               {plan.title === "Anual" && (
                 <a
-                  href="https://pay.kiwify.com/1zME8kq"
+                  href="https://pay.kiwify.com.br/T8lV952"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`w-full block py-4 text-lg font-bold rounded-full text-center shadow-lg transition mt-2
